@@ -57,7 +57,7 @@
   \includegraphics[width=0.45\linewidth]{图片1.jpg}
   \caption{实验数据的图片}
   \label{fig:hanhan}
-\end{figure} 
+\end{figure}
 多张图片，网上也有很多方法。
 % 简单如图 \ref{fig:hanhan1} 所示。
 % \begin{figure}
@@ -75,56 +75,56 @@
 表\ref{tab:parallel2} 使用小页环境，也可以如表\ref{tab:subtable} 使用子表格来做。R语言可以使用xtable程序包直接导出表格代码，复制粘贴一下就ok。
 
 \begin{table}[htbp]
-\noindent\begin{minipage}{0.5\textwidth}
-\centering
-\caption{第一个并排子表格}
-\label{tab:parallel1}
-\begin{tabular}{p{2cm}p{2cm}}
-\toprule
-111 & 222 \\\midrule
-222 & 333 \\\bottomrule
-\end{tabular}
-\end{minipage}%
-\begin{minipage}{0.5\textwidth}
-\centering
-\caption{第二个并排子表格}
-\label{tab:parallel2}
-\begin{tabular}{p{2cm}p{2cm}}
-\toprule
-111 & 222 \\\midrule
-222 & 333 \\\bottomrule
-\end{tabular}
-\end{minipage}
+  \noindent\begin{minipage}{0.5\textwidth}
+    \centering
+    \caption{第一个并排子表格}
+    \label{tab:parallel1}
+    \begin{tabular}{p{2cm}p{2cm}}
+      \toprule
+      111 & 222 \\\midrule
+      222 & 333 \\\bottomrule
+    \end{tabular}
+  \end{minipage}%
+  \begin{minipage}{0.5\textwidth}
+    \centering
+    \caption{第二个并排子表格}
+    \label{tab:parallel2}
+    \begin{tabular}{p{2cm}p{2cm}}
+      \toprule
+      111 & 222 \\\midrule
+      222 & 333 \\\bottomrule
+    \end{tabular}
+  \end{minipage}
 \end{table}
 
 
 \begin{table}[htbp]
-\centering
-\caption{并排子表格}
-\label{tab:subtable}
-\subcaptionbox{第一个子表格}
-{
-\begin{tabular}{c|c|c}
-\hline
-模型 & 得分1 &得分2 \\
-\hline
-a &111 & 222 \\
-b &222 & 333 \\
-\hline
-\end{tabular}
-}
-\hskip2cm
-\subcaptionbox{第二个子表格}
-{
-\begin{tabular}{c|c|c}
-\hline
-模型 & 得分1 &得分2 \\
-\hline
-a &111 & 222 \\
-b &222 & 333 \\
-\hline
-\end{tabular}
-}
+  \centering
+  \caption{并排子表格}
+  \label{tab:subtable}
+  \subcaptionbox{第一个子表格}
+  {
+    \begin{tabular}{c|c|c}
+      \hline
+      模型 & 得分1 & 得分2 \\
+      \hline
+      a  & 111 & 222 \\
+      b  & 222 & 333 \\
+      \hline
+    \end{tabular}
+  }
+  \hskip2cm
+  \subcaptionbox{第二个子表格}
+  {
+    \begin{tabular}{c|c|c}
+      \hline
+      模型 & 得分1 & 得分2 \\
+      \hline
+      a  & 111 & 222 \\
+      b  & 222 & 333 \\
+      \hline
+    \end{tabular}
+  }
 \end{table}
 
 
@@ -132,14 +132,14 @@ b &222 & 333 \\
 公式书写应在文中另起一行。并使用英文标点。
 考虑模型\eqref{eq1}
 \begin{equation}
-y_i = \mu(t_i) + e_i, \quad i = 1,2,\dots n,
-\label{eq1}
+  y_i = \mu(t_i) + e_i, \quad i = 1,2,\dots n,
+  \label{eq1}
 \end{equation}
 如果需要换行
 \begin{equation}
   \begin{aligned}
-  y_i &= \mu(t_i) + e_i\\
-      &= \mu(t_i) + e_i.\\
+    y_i & = \mu(t_i) + e_i  \\
+        & = \mu(t_i) + e_i. \\
   \end{aligned}
 \end{equation}
 
@@ -177,7 +177,7 @@ y_i = \mu(t_i) + e_i, \quad i = 1,2,\dots n,
 
 \bibstyle{gbt7714-numerical}
 \bibliography{main}
- 
+
 \section{附录}
 一些不想放在正文的细节。不宜放在正文中，但有参考价值的内容。如调查问卷、 公式推演、编写程序、原始数据附表等。
 \subsection{核心代码}

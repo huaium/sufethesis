@@ -1,0 +1,27 @@
+\contentsline {section}{\numberline {一、}序言}{1}{}%
+\contentsline {subsection}{\numberline {(一)}研究背景及意义}{1}{}%
+\contentsline {subsection}{\numberline {(二)}研究现状与评价}{1}{}%
+\contentsline {subsection}{\numberline {(三)}本文贡献与创新点}{1}{}%
+\contentsline {subsection}{\numberline {(四)}文章基本思路与结构}{1}{}%
+\contentsline {section}{\numberline {二、}论文格式概述}{1}{}%
+\contentsline {subsection}{\numberline {(一)}正文之前}{1}{}%
+\contentsline {subsubsection}{\numberline {1.}封页}{1}{}%
+\contentsline {subsubsection}{\numberline {2.}题目和摘要}{1}{}%
+\contentsline {subsubsection}{\numberline {3.}目录}{1}{}%
+\contentsline {subsubsection}{\numberline {4.}标题}{2}{}%
+\contentsline {subsection}{\numberline {(二)}正文格式要求}{2}{}%
+\contentsline {subsubsection}{\numberline {1.}正文}{2}{}%
+\contentsline {subsubsection}{\numberline {2.}图}{2}{}%
+\contentsline {subsubsection}{\numberline {3.}表格}{2}{}%
+\contentsline {subsubsection}{\numberline {4.}公式}{3}{}%
+\contentsline {subsubsection}{\numberline {5.}参考文献}{3}{}%
+\contentsline {section}{\numberline {三、}实证分析}{3}{}%
+\contentsline {subsection}{\numberline {(一)}数据介绍}{3}{}%
+\contentsline {subsection}{\numberline {(二)}数据分析}{4}{}%
+\contentsline {section}{\numberline {四、}结论与局限性}{4}{}%
+\contentsline {subsection}{\numberline {(一)}结论}{4}{}%
+\contentsline {subsection}{\numberline {(二)}局限性}{4}{}%
+\contentsline {section}{\numberline {五、}附录}{5}{}%
+\contentsline {subsection}{\numberline {(一)}核心代码}{5}{}%
+\contentsline {subsubsection}{\numberline {1.}检验统计量计算}{5}{}%
+\contentsfinish 

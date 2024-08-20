@@ -1,0 +1,24 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[Gu{\'e}gan(2005)]{guegan2005can}
+GU{\'E}GAN D.
+\newblock How can we define the concept of long memory? an econometric survey\allowbreak[J].
+\newblock Econometric reviews, 2005, 24\allowbreak (2): 113-149.
+
+\bibitem[Dahlhaus(1997)]{dahlhaus1997}
+DAHLHAUS R.
+\newblock Fitting time series models to nonstationary processes\allowbreak[J].
+\newblock Ann. Statist., 1997, 25\allowbreak (1): 1-37.
+
+\end{thebibliography}
